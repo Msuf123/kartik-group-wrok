@@ -1,0 +1,21 @@
+{
+  "name": "forntend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jasmine-browser-runner init",
+    "tests": "jasmine-browser-runner serve",
+    "build":"webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jasmine-browser-runner": "^2.5.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
